@@ -1,2 +1,2 @@
 # Portfolio-Project
-HTML + CSS project for Learning
+HTML + CSS webpage project for Learning
