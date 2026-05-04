@@ -137,6 +137,19 @@ body {
 }
 
 
+.footer-container{
+  background-color: aqua;
+  /* color: rgb(255, 255, 255); */
+  padding: 20px;
+  display: flex;
+  flex-direction:column;
+  gap: 10px;
+  align-items: center;
+}
+.footer-container h1{
+  font-size: 20px;
+}
+
 /* All Animations */
 @keyframes slide-in-left {
   0% {
