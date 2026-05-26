@@ -4,8 +4,8 @@
 }
 
 body {
-  font-family:  roboto;
-  background-color: #E9EBF4;
+  font-family: roboto;
+  background-color: #e9ebf4;
 }
 
 /* Intro CSS */
@@ -30,14 +30,14 @@ body {
   font-size: 30px;
 }
 .left-intro h1 span {
-  color: #8E51FF;
+  color: #8e51ff;
 }
 .left-intro p {
   font-size: 25px;
   width: 400px;
 }
 .left-intro p span {
-  color: #8E51FF;
+  color: #8e51ff;
   font-weight: bold;
 }
 
@@ -65,21 +65,20 @@ body {
   margin-top: 10px;
   border-radius: 5%;
   transition: 0.3s;
-  box-shadow: 2px 3px 18px 2px #8E51FF;
+  box-shadow: 2px 3px 18px 2px #8e51ff;
 }
 .right-intro img:hover {
   transition: 0.3s;
-  box-shadow: 2px 3px 99px -2px #8E51FF;
+  box-shadow: 2px 3px 99px -2px #8e51ff;
 
   cursor: pointer;
 }
-
 
 .heading {
   text-align: center;
   font-size: 40px;
   margin-top: 50px;
-  border-bottom: 5px solid #8E51FF;
+  border-bottom: 5px solid #8e51ff;
   margin-left: 500px;
   margin-right: 500px;
   padding-bottom: 40px;
@@ -98,19 +97,19 @@ body {
   padding: 40px;
   border-radius: 20px;
 
-  background-color: #E9EBF4;
-  box-shadow: 0px 4px 11px -2px #8E51FF;
+  background-color: #e9ebf4;
+  box-shadow: 0px 4px 11px -2px #8e51ff;
   transition: 0.3s;
 }
 .skills-container:hover {
   transition: 0.3s;
-  box-shadow: 0px 4px 69px -2px #8E51FF;
+  box-shadow: 0px 4px 69px -2px #8e51ff;
   cursor: pointer;
 }
 .skills-container h1 {
   padding: 10px 30px;
   margin: 5px 15px;
-  background-color: #8E51FF;
+  background-color: #8e51ff;
   color: white;
   border-radius: 30px;
 
@@ -120,7 +119,7 @@ body {
   padding: 15px 45px;
   margin: 0px 0px;
   transition: 0.3s;
-  background-color: #7F22FE;
+  background-color: #7f22fe;
 }
 
 /* Education CSS */
@@ -147,29 +146,28 @@ body {
   margin-top: 20px;
   transition: 0.3s;
 
-  box-shadow: 1px 1px 20px -2px #8E51FF;
-  background: linear-gradient(330deg, #E9EBF4 10%, #8e51ff8c );
+  box-shadow: 1px 1px 20px -2px #8e51ff;
+  background: linear-gradient(330deg, #e9ebf4 10%, #8e51ff8c);
 }
 .each-container:hover {
   transition: 0.3s;
-  box-shadow: 1px 1px 20px -2px #8E51FF;
+  box-shadow: 1px 1px 20px -2px #8e51ff;
   cursor: pointer;
 }
 .each-container img {
   width: 400px;
   height: 250px;
   border-radius: 20px;
-  box-shadow: 2px 3px 11px -2px #8E51FF;
+  box-shadow: 2px 3px 11px -2px #8e51ff;
 }
-.each-container p{
+.each-container p {
   font-size: 20px;
-  color: #52525C;
+  color: #52525c;
 }
-
 
 /* Footer CSS */
 .footer-container {
-  background-color: #4D179A;
+  background-color: #4d179a;
   color: white;
   padding: 20px;
   display: flex;
@@ -205,5 +203,30 @@ body {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .intro-container {
+    margin-top: 40px;
+    padding: 20px;
+    flex-direction: column;
+
+    gap: 20px;
+  }
+  .left-intro {
+    width: 100%;
+  }
+  .left-intro p {
+  }
+
+  .right-intro img {
+    margin-right: 0px;
+  }
+
+  .heading {
+  margin-left: 40px;
+  margin-right: 40px;
   }
 }
