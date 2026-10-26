@@ -178,6 +178,9 @@ body {
 .footer-container h1 {
   font-size: 20px;
 }
+.footer-container p {
+  text-align: center;
+}
 
 /* All Animations */
 @keyframes slide-in-left {
